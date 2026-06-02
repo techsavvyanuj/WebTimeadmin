@@ -207,18 +207,6 @@ const Sidebar = () => {
                     <span className="pl-2">Live TV</span>
                   </NavLink>
                 </li>
-
-                <li>
-                  <NavLink
-                    to="/admin/shortVideo"
-                    className={`${classes.navLink}`}
-                    onClick={closeSidebar}
-
-                  >
-                    <IconPhotoVideo />
-                    <span className="pl-2">Shorts</span>
-                  </NavLink>
-                </li>
                 <div className="custom-sidebar-label">Content & Metadata</div>
                 <li>
                   <NavLink to="/admin/region" className={`${classes.navLink}`} onClick={closeSidebar}
