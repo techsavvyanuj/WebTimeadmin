@@ -246,8 +246,6 @@ const Movie = (props) => {
                           </th>
                           <th className="tableAlign">Type</th>
                           <th className="tableAlign">New Release</th>
-                          <th className="tableAlign">Add Shorts</th>
-                          <th className="tableAlign">Shorts</th>
                           <th className="tableAlign">Purchase</th>
                           {/* <th className="tableAlign">View Details</th>
                           <th className="tableAlign">Edit</th> */}
